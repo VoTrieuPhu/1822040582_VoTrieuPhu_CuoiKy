@@ -1,0 +1,14 @@
+# Loại trừ thư mục thư viện
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Loại trừ file biến môi trường nhạy cảm
+.env
+backend/.env
+frontend/.env
+
+# Loại trừ thư mục build và file tạm
+dist/
+frontend/dist/
+.DS_Store
